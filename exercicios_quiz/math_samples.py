@@ -2,7 +2,10 @@ class MathSamples:
 
     @staticmethod
     def double(n):
-        return 0
+        if n == 0:
+            return 0
+        else:
+            return 1
 
     @staticmethod
     def power(base, potencia):
