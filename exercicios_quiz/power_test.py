@@ -8,3 +8,10 @@ class PowerTest(unittest.TestCase):
             MathSamples.power(1,1),
             1
         )
+
+    def teste_2(self):
+        """Testando caso para entradas 1 e 2"""
+        self.assertEqual(
+            MathSamples.power(1,2),
+            1
+        )
