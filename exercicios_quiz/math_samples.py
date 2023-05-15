@@ -6,7 +6,7 @@ class MathSamples:
 
     @staticmethod
     def power(base, potencia):
-        return None
+        return 1
 
     @staticmethod
     def factorial(n):
