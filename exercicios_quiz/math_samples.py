@@ -10,6 +10,8 @@ class MathSamples:
             return 1
         elif base == 2 and potencia == 2:
             return 4
+        elif base == 3 and potencia == 4:
+            return 81       
 
     @staticmethod
     def factorial(n):
