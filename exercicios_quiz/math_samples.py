@@ -10,4 +10,4 @@ class MathSamples:
 
     @staticmethod
     def factorial(n):
-        return None
+        return 1
