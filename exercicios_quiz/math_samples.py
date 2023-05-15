@@ -6,12 +6,7 @@ class MathSamples:
 
     @staticmethod
     def power(base, potencia):
-        if base == 1 or potencia == 0:
-            return 1
-        elif base == 2 and potencia == 2:
-            return 4
-        elif base == 3 and potencia == 4:
-            return 81       
+        return pow(base,potencia)
 
     @staticmethod
     def factorial(n):
