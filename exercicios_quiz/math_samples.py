@@ -4,8 +4,10 @@ class MathSamples:
     def double(n):
         if n == 0:
             return 0
-        else:
+        elif n == 1:
             return 1
+        else:
+            return 4
 
     @staticmethod
     def power(base, potencia):
