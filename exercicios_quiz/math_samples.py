@@ -2,7 +2,7 @@ class MathSamples:
 
     @staticmethod
     def double(n):
-        return None
+        return 0
 
     @staticmethod
     def power(base, potencia):
