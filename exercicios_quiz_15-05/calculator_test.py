@@ -8,3 +8,10 @@ class CalculatorTest(unittest.TestCase):
             CalculatorSamples.somar(1,1),
             2
         )
+    
+    def teste_somar_2(self):
+        """Testando caso para entradas 2 e 3"""
+        self.assertEqual(
+            CalculatorSamples.somar(2,3),
+            5
+        )
