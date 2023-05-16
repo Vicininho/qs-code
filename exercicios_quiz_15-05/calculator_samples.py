@@ -11,3 +11,7 @@ class CalculatorSamples:
     @staticmethod
     def multiplicar(n,m):
         return n * m
+    
+    @staticmethod
+    def dividir(n,m):
+        return 2
