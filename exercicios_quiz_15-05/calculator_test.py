@@ -36,3 +36,11 @@ class CalculatorTest(unittest.TestCase):
             CalculatorSamples.subtrair(7,3),
             4
         )
+    
+    def teste_subtrair_3(self):
+        """Testando caso para entradas 19 e 7"""
+        self.assertEqual(
+            CalculatorSamples.subtrair(19,7),
+            12
+            
+        )
