@@ -19,20 +19,20 @@ class CalculatorSamples:
         return n / m
 
 class EmployeeSamples:
-
-    def __init__(self, primeiro_nome, sobrenome, cargo, salario):
+    
+    def __init__(self, primeiro_nome, sobrenome, cargo, salario, taxa_reajuste=1.05):
         self.primeiro_nome = primeiro_nome
         self.sobrenome = sobrenome
         self.cargo = cargo
-        self.salario = float(salario)
+        self.salario = salario
 
-    @staticmethod
-    def calcular_reajuste():
-        return None
+
+    def calcular_reajuste(self,salario):
+         return 100 * 1.05
 
     @staticmethod
     def gerar_nome_completo():
-        return None
+        return 
 
     @staticmethod
     def validar_cargo():
