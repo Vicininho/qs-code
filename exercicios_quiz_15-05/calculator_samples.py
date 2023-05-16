@@ -6,4 +6,4 @@ class CalculatorSamples:
 
     @staticmethod
     def subtrair(n,m):
-        return 1
+        return n - m
