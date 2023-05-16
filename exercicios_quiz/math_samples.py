@@ -1,3 +1,5 @@
+import math
+
 class MathSamples:
 
     @staticmethod
@@ -10,7 +12,4 @@ class MathSamples:
 
     @staticmethod
     def factorial(n):
-        if n == 0:
-            return 1
-        else:
-            return n * MathSamples.factorial((n - 1))
+        return math.factorial(n)
