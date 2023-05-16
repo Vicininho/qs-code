@@ -14,4 +14,6 @@ class CalculatorSamples:
     
     @staticmethod
     def dividir(n,m):
+        if m == 0:
+            return "Indefinido"
         return n / m
