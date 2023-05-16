@@ -15,3 +15,10 @@ class CalculatorTest(unittest.TestCase):
             CalculatorSamples.somar(2,3),
             5
         )
+    
+    def teste_somar_3(self):
+        """Testando caso para entradas 5 e 9"""
+        self.assertEqual(
+            CalculatorSamples.somar(5,9),
+            14
+        )
