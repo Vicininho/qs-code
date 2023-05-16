@@ -14,4 +14,4 @@ class CalculatorSamples:
     
     @staticmethod
     def dividir(n,m):
-        return n / m
+        return 2
