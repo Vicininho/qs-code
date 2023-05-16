@@ -22,3 +22,10 @@ class FactorialTest(unittest.TestCase):
             MathSamples.factorial(2),
             2
         )
+    
+    def teste_4(self):
+        """Testando caso para entrada 3"""
+        self.assertEqual(
+            MathSamples.factorial(3),
+            6
+        )

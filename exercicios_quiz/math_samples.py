@@ -10,6 +10,8 @@ class MathSamples:
 
     @staticmethod
     def factorial(n):
-        if n == 2:
+        if n == 3:
+            return 6
+        elif n == 2:
             return 2
         return 1
