@@ -57,3 +57,10 @@ class CalculatorTest(unittest.TestCase):
             CalculatorSamples.multiplicar(2,3),
             6
         )
+    
+    def teste_multiplicar_3(self):
+        """Testando caso para entradas 5 e 7"""
+        self.assertEqual(
+            CalculatorSamples.multiplicar(5,7),
+            35
+        )
