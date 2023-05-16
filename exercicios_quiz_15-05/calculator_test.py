@@ -22,3 +22,10 @@ class CalculatorTest(unittest.TestCase):
             CalculatorSamples.somar(5,9),
             14
         )
+    
+    def teste_subtrair_1(self):
+        """Testando caso para entradas 4 e 3"""
+        self.assertEqual(
+            CalculatorSamples.subtrair(4,3),
+            1
+        )
