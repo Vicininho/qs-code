@@ -10,10 +10,7 @@ class MathSamples:
 
     @staticmethod
     def factorial(n):
-        if n == 4:
-            return 24
-        if n == 3:
-            return 6
-        elif n == 2:
-            return 2
-        return 1
+        if n == 0:
+            return 1
+        else:
+            return n * MathSamples.factorial((n - 1))
