@@ -1,5 +1,5 @@
 import unittest
-from calculator_samples import CalculatorSamples
+from samples import CalculatorSamples
 
 class CalculatorTest(unittest.TestCase):
     def teste_somar_1(self):
