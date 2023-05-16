@@ -10,4 +10,4 @@ class CalculatorSamples:
     
     @staticmethod
     def multiplicar(n,m):
-        return 4
+        return n * m

@@ -50,3 +50,10 @@ class CalculatorTest(unittest.TestCase):
             CalculatorSamples.multiplicar(2,2),
             4
         )
+    
+    def teste_multiplicar_2(self):
+        """Testando caso para entradas 2 e 3"""
+        self.assertEqual(
+            CalculatorSamples.multiplicar(2,3),
+            6
+        )
