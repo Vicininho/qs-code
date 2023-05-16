@@ -78,3 +78,10 @@ class CalculatorTest(unittest.TestCase):
             CalculatorSamples.dividir(2,1),
             2
         )
+    
+    def teste_dividir_3(self):
+        """Testando caso para entradas 6 e 2"""
+        self.assertEqual(
+            CalculatorSamples.dividir(5,2),
+            2.5
+        )
