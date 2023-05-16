@@ -42,5 +42,11 @@ class CalculatorTest(unittest.TestCase):
         self.assertEqual(
             CalculatorSamples.subtrair(19,7),
             12
-            
+        )
+    
+    def teste_multiplicar_1(self):
+        """Testando caso para entradas 2 e 2"""
+        self.assertEqual(
+            CalculatorSamples.multiplicar(2,2),
+            4
         )

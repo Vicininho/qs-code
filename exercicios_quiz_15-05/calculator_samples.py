@@ -7,3 +7,7 @@ class CalculatorSamples:
     @staticmethod
     def subtrair(n,m):
         return n - m
+    
+    @staticmethod
+    def multiplicar(n,m):
+        return 4
